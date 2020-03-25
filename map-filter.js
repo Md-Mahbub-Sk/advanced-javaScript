@@ -17,18 +17,20 @@ console.log(output);
 
 
 // map 
+
+// map is array based.. this too much needy thing .
 var m = [3,6,9,4];
-var resultOfMap = m.map(function(m){
-    return m * m;
+var resultOfMap = m.map(function(m,n,o){
+    console.log("m = ",m,n,o)
 })
-console.log(resultOfMap);
+//console.log(resultOfMap);
 
 
 
 // arrow function .. we can write here;
 
 
-var x = x => x * x;
+var x = x => x * x; // function x (x){x * x};
 var rusltOfMap = m.map(x);
 console.log(rusltOfMap);
 
