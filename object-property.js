@@ -25,7 +25,7 @@ var bigger = student.filter(function idsBigger (idsBigger){
 // console.log(bigger);
  bigger = student.filter(sIds =>sIds.id>40);
  console.log(bigger);
- biggerOne = student.find(sIds =>sIds.id>40);// find means get first one element .. filter and find are not same they have two    different, Number 1 is filter get all elements when its condition is true or find get just start element just get one.. this is very simple.. 
+ biggerOne = student.find(sIds =>sIds.id>40);// find means get first one element .. filter and find are not same they have two    different, Number 1 is filter get all elements when its condition is true or find get just start element just get one.. this is very simple.. don't use bangla because it is not readable ...
  console.log(biggerOne);
 
 
